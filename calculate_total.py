@@ -5,4 +5,4 @@ expenses = [
 ]
 
 total = sum(e["amount"] for e in expenses)
-print(f"Total spent: ${total:.2f}")
+print("Total spent: ${total:.2f}")
